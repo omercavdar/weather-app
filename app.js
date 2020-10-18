@@ -1,5 +1,5 @@
-const geocode = require('./web-server/src/utils/geocode')
-const forecast = require('./web-server/src/utils/forecast')
+const geocode = require('./src/utils/geocode')
+const forecast = require('./src/utils/forecast')
 
 geocode('Istanbul', (error, { latitude, longitude } = {}) => {
     if (error) {
